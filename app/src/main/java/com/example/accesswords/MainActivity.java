@@ -132,9 +132,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"没有找到记录",Toast.LENGTH_LONG).show();
                     return;
                 }
-
-                //找到记录，这里简单起见，使用Log输出
-
                 String msg = "";
                 if (cursor.moveToFirst()){
                     do{
